@@ -1,15 +1,11 @@
 100-times_table.c CODE
-
-
 #include "main.h"
-
-
-	/**
-	 * print_times_table - prints the n times table, starting with 0
-	 * @n: number of the times table
-	 */
-	void print_times_table(int n)
-	{
+/**	
+  * print_times_table - prints the n times table, starting with 0
+ * @n: number of the times table
+ */
+void print_times_table(int n)
+{
 		int i, j, k;
 
 
@@ -49,5 +45,5 @@
 				_putchar('\n');
 			}
 		}
-	}
+}
 
