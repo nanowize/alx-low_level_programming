@@ -2,7 +2,7 @@
 
 /**
  * print_numbers - print 0-9
- * return: void
+ * Return: Always 0
  * Project done by Chuks Nnadozie
  */
 
@@ -10,7 +10,7 @@ void print_numbers(void)
 {
 	int c;
 
-	for ( = 40';c <= '50'; c++)
+	for (c = 48; c < 58; c++)
 	{
 		_putchar(c);
 	}
